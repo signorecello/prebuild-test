@@ -4,7 +4,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
-	"onCreateCommand": "curl -s install.aztec.network | NON_INTERACTIVE=1 BIN_PATH=/usr/local/bin bash -s && echo 'y' | npx create-aztec-app -t app -n react -s && cd react && yarn",
+	"onCreateCommand": "sh onCreateCommand.sh",
 	"postAttachCommand": "(nohup /usr/local/bin/aztec sandbox &) && cd react",
 	"customizations": {
 		"vscode": {
