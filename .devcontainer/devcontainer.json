@@ -12,6 +12,6 @@
       "extensions": ["noir-lang.vscode-noir"]
     }
   },
-  "workspaceMount": "source=${localWorkspaceFolder}/.devcontainer,target=/root/workspace,type=bind",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/root/workspace,type=bind",
   "workspaceFolder": "/root/workspace"
 }
