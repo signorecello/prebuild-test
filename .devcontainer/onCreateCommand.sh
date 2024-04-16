@@ -7,5 +7,5 @@ echo 'y' | npx create-aztec-app -t app -n react -s
 cd react
 yarn
 
-npx -y playwright@1.42 install --with-deps
+npx -y playwright install --with-deps
 yarn prep
