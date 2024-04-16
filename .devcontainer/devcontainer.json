@@ -4,7 +4,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
-	"onCreateCommand": "sh onCreateCommand.sh",
+	"onCreateCommand": ".devcontainer/onCreateCommand.sh",
 	"postAttachCommand": "(nohup /usr/local/bin/aztec sandbox &) && cd react",
 	"customizations": {
 		"vscode": {
