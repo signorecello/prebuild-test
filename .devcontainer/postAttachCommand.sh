@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# apt install gh
-# gh codespace ports visibility 8080:public -c $CODESPACE_NAME
+apt install gh
+gh codespace ports visibility 8080:public -c $CODESPACE_NAME
 
-# (nohup /usr/local/bin/aztec sandbox &)
+(nohup /usr/local/bin/aztec sandbox &)
 # cd react
 r=$(tput sgr0)       # Reset color
 bold=$(tput bold)    # Bold text
