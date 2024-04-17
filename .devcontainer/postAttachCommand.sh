@@ -59,6 +59,7 @@ print_colored "All the packages are already installed, and you can now run yarn 
 echo
 print_colored "You can also use this codespace for its running sandbox, by connecting your local environment to it" "magenta"
 echo
-print_colored "To do so, prepend your commands with PXE_URL=${PXE_URL}" "magenta"
+print_colored "To do so, prepend your commands with:" "magenta" 
+print_colored "PXE_URL=${PXE_URL}" "green"
 echo
-print_colored "Enjoy your sandbox! 🏖️" "orange"
+print_colored "${bold}Enjoy your sandbox! 🏖️" "orange"
