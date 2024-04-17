@@ -18,5 +18,9 @@
 		"cpus": 8,
 		"memory": "8gb",
 		"storage": "32gb"
+	},
+	"forwardPorts": [8080],
+	"containerEnv": {
+		"PXE_URL": "https://$CODESPACE_NAME-8080.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN"
 	}
 }
